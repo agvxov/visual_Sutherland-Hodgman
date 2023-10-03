@@ -27,7 +27,7 @@ struct spacial_t {	// Erre azért van szükség mert a Point .x-e és .y-a priv�
 		return new Point(s.x, s.y);
 	}
 
-    public
+	public
 	static implicit
 	operator PointF(spacial_t s) {
 		return new PointF(s.x, s.y);
@@ -43,7 +43,7 @@ struct spacial_t {	// Erre azért van szükség mert a Point .x-e és .y-a priv�
 		return r;
 	}
 
-    public
+	public
 	static
 	spacial_t[] random_triangle(spacial_t min, spacial_t max) {
 		return new spacial_t[] {
